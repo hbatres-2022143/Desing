@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f2ff;
+}
+
+.navbar {
+  background: linear-gradient(to top, #bb79ff, #6696fa, #bb79ff);
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  background-color: #eceaf9;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 2% 0;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  gap: 2%;
+  padding: 2%;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  width: 75%;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48.5%;
+  background-color: #9a9a9e;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.box1 {
+  background: linear-gradient(to left, #bb79ff, #6696fa);
+  width: 100%;
+  height: 25%;
+}
+
+.box2 {
+  height: 45%;
+}
+
+.box3 {
+  height: 25%;
+}
+
+.box4 {
+  height: 24%;
+}
+
+.box5 {
+  height: 44%;
+  margin-top: -13%;
+}
+
+.profile {
+  width: 27%;
+}
